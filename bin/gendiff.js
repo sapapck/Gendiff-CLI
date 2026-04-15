@@ -1,13 +1,17 @@
 #!/usr/bin/env node
-import { program } from 'commander';
-import genDiff from '../src/index.js';
+import { program } from "commander";
+import { readFileSync } from "fs";
+import genDiff from "../src/index.js";
+
+const packageJsonPath = new URL("../package.json", import.meta.url);
+const { version } = JSON.parse(readFileSync(packageJsonPath));
 
 program
-  .name('gendiff')
-  .description('Compares two configuration files and shows a difference.')
-  .option('-V, --version', 'output the version number')
-  .option('-f, --format <type>', 'output format', 'stylish')
-  .arguments('<filepath1> <filepath2>')
+  .name("gendiff")
+  .description("Compares two configuration files and shows a difference.")
+  .version(version)
+  .option("-f, --format <type>", "output format", "stylish")
+  .arguments("<filepath1> <filepath2>")
   .action((filepath1, filepath2) => {
     console.log(genDiff(filepath1, filepath2, program.opts().format));
   });
