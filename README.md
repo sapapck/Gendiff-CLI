@@ -3,7 +3,6 @@
 [![Actions Status](https://github.com/sapapck/Gendiff-CLI/workflows/hexlet-check/badge.svg)](https://github.com/sapapck/Gendiff-CLI/actions)
 ![Actions Status](https://github.com/sapapck/Gendiff-CLI/actions/workflows/node.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/sapapck/Gendiff-CLI/badge.svg?branch=main)](https://coveralls.io/github/sapapck/Gendiff-CLI?branch=main)
-
 ---
 
 # Описание:
