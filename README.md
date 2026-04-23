@@ -1,9 +1,8 @@
 ### Hexlet tests and linter status:
 
-[![Actions Status](https://github.com/sapapck/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/sapapck/frontend-project-46/actions)
-![Actions Status](https://github.com/sapapck/frontend-project-46/actions/workflows/node.yml/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c35eae4c694440ca7de6/maintainability)](https://codeclimate.com/github/sapapck/frontend-project-46/maintainability)
-[![Coverage Status](https://coveralls.io/repos/github/sapapck/frontend-project-46/badge.svg?branch=main)](https://coveralls.io/github/sapapck/frontend-project-46?branch=main)
+[![Actions Status](https://github.com/sapapck/Gendiff-CLI/workflows/hexlet-check/badge.svg)](https://github.com/sapapck/Gendiff-CLI/actions)
+![Actions Status](https://github.com/sapapck/Gendiff-CLI/actions/workflows/node.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/sapapck/Gendiff-CLI/badge.svg?branch=main)](https://coveralls.io/github/sapapck/Gendiff-CLI?branch=main)
 
 ---
 
