@@ -26,3 +26,9 @@ jobs:
       - run: make install
       - run: make lint
       - run: make test
+      - run: make test-coverage
+      - name: Publish coverage to Coveralls
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          file: coverage/lcov.info
